@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "npx http-server . -p 3000 -o",
-    "build": "echo 'Static site - no build process needed'",
+    "build": "echo Static site - no build step",
     "deploy": "echo 'Upload files to your web server'",
     "test": "echo 'Run accessibility and performance tests'",
     "optimize": "echo 'Run image optimization and minification'"

@@ -143,14 +143,19 @@ gsoc/
 ### Prerequisites
 - Modern web browser
 - Basic understanding of HTML/CSS/JavaScript (for customization)
-- Web server for hosting (Apache, Nginx, or static hosting service)
+- Static hosting (Vercel recommended)
 
-### Installation
-1. Clone or download the project files
-2. Upload to your web server (only `index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml` are required; `blog-sample.html` optional)
-3. Update contact information and links
-4. Customize content to match your course details
-5. Set up analytics and tracking (not bundled)
+### Deploy to Vercel
+1. Create an empty repo on GitHub (done)
+2. Push this project (already committed). If needed:
+   - git branch -M main
+   - git remote add origin https://github.com/<your-username>/gsoc-2026-prep-site.git
+   - git push -u origin main
+3. In Vercel, import the GitHub repo.
+4. Framework preset: "Other"
+5. Build command: none (leave empty)
+6. Output directory: "/" (root)
+7. `vercel.json` already included for headers and static routing.
 
 ### Customization
 1. **Colors**: Update CSS custom properties in `styles.css`
