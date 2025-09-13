@@ -1,0 +1,46 @@
+{
+  "name": "gsoc-2026-prep-course",
+  "version": "1.0.0",
+  "description": "Modern, conversion-focused website for GSoC 2026 preparation course with 100% success rate",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "build": "echo 'Static site - no build process needed'",
+    "deploy": "echo 'Upload files to your web server'",
+    "test": "echo 'Run accessibility and performance tests'",
+    "optimize": "echo 'Run image optimization and minification'"
+  },
+  "keywords": [
+    "gsoc",
+    "google-summer-of-code",
+    "course",
+    "preparation",
+    "mentorship",
+    "open-source",
+    "programming",
+    "pakistan",
+    "india",
+    "2026"
+  ],
+  "author": "GSoC Success Academy",
+  "license": "MIT",
+  "homepage": "https://gsoc2026prep.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsoc-success/gsoc-2026-prep-course"
+  },
+  "bugs": {
+    "url": "https://github.com/gsoc-success/gsoc-2026-prep-course/issues"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

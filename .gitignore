@@ -1,0 +1,24 @@
+# Dependencies and tools
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Build/Cache
+.cache/
+dist/
+.eslintcache
+
+# Editor
+.vscode/
+.idea/
+
+# Misc
+*.zip
+*.tar.gz
